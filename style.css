@@ -1,0 +1,127 @@
+/* Basislayout */
+
+html, 
+body {
+    padding: 0; 
+    margin: 0:
+    background-color: #EEEEEE;  
+    
+    color: #303030;
+    font: Verdana, Arial, Sans-Serif;
+}
+
+body {
+
+    background-image: url("/plaatjes/badge.jpg");
+    background-size: cover;
+    
+}
+
+
+main {
+    margin: 0 auto;
+    width: 700px;
+    position: relative;
+}
+
+
+article {
+    text-align: justify;
+    color: rgb(112, 112, 112);
+}
+
+
+header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/* specifieke stijlen */
+
+img.Bom{
+    margin: 5px 30px 5px 0px;
+    float: left;
+}
+img.Hostage{
+    margin: 5px 0px 5px 30px;
+    float: right;
+}
+img.Ubisoft {
+    
+    margin: 0px 75px 10px 105px;
+    float: center; 
+}
+img.Sledge{
+
+    margin: 25px 30px 5px 0px;
+    float: left; 
+
+}
+img.Newcanal{
+
+    margin: 0px 10px 50px 0px;
+    float: left;
+}
+img.Outback{
+    margin: 0px 0px 50px 10px;
+    float: right;
+}
+img.Montagne{
+    margin: 40px 0px 5px 20px;
+    float: right;
+}
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* navigatiebalk */
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #868383;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #777474;
+}
+
+nav li a.active {
+    background-color: rgb(110, 112, 112);
+}
+
+.r6{
+    float:left;
+}
+
+
