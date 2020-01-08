@@ -20,7 +20,7 @@ body {
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 850px;
     position: relative;
 }
 
@@ -63,6 +63,11 @@ img.Sledge{
     margin: 25px 30px 5px 0px;
     float: left; 
 
+}
+img.Pulse{
+
+    margin: 30px 30px 10px 0px;
+    float: left;
 }
 img.Newcanal{
 
